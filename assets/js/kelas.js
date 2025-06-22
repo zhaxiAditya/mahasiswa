@@ -7,7 +7,7 @@
     console.log(password);
 
         if(email == "sayamahasiswa@amikom.ac.id" && password =="amikom"){
-            window.location.href="../../listKelas.html"
+            window.location.href="listKelas.html"
         }else {
             alert.style.display = 'block'
             document.getElementById('email').value = "";
@@ -16,7 +16,7 @@
     }
 
     function google(){
-        window.location.href="../../listKelas.html"
+        window.location.href="listKelas.html"
     }
     
     const search = document.getElementById('search').value;
