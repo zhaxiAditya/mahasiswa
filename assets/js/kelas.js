@@ -16,7 +16,7 @@
     }
 
     function google(){
-        window.location.href="listKelas.html"
+        window.location.href="/listKelas.html"
     }
     
     const search = document.getElementById('search').value;
