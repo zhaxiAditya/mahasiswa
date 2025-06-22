@@ -93,5 +93,25 @@
     </section>
   </div>
 </body>
-<script src="assets/js/kelas.js"></script>
+<script>
+      function login(){
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+        const alert = document.getElementById('alert');
+        console.log(email);
+        console.log(password);
+    
+            if(email == "sayamahasiswa@amikom.ac.id" && password =="amikom"){
+                window.location.href="listKelas.html"
+            }else {
+                alert.style.display = 'block'
+                document.getElementById('email').value = "";
+                document.getElementById('password').value= "";
+            }
+        }
+    
+        function google(){
+            window.location.href="listKelas.html"
+      }
+</script>
 </html>
